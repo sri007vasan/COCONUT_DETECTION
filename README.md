@@ -1,4 +1,4 @@
-# COCONUT MATURITY DETECTION USING OPEN CV
+# DRONE BASED COCONUT MATURITY DETECTION
 
 So this project basically , helps in finding the maturity of a coconut by making a colour classification,The OPEN CV library is used in this project's implementation inorder to classify the coconut based upon the colour of the coconut.
 
