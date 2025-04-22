@@ -11,10 +11,12 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
 FOLDER_PATH = r"C:\Users\ADMIN\Pictures\mavic2pro"
+#edit the storage path according to your pc 
+#ensure presetup in google cloud for the spreadsheet to word 
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SPREADSHEET_ID = "1S1BNXFDYBy2Xk8X9288KQm96n7uV1bWh6dW0WZuoESQ"
-SHEET_NAME = "sheet1"
+SPREADSHEET_ID = "#give your spreadsheet id"
+SHEET_NAME = "#give your spreadsheet name"
 
 def get_sheets_service():
     creds = None
